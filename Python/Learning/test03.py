@@ -1,0 +1,5 @@
+print("basic calculator")
+first_number = input("Pick a number: ")
+second_number = input("pick the second one: ")
+final_number = int(first_number) + int(second_number)
+print(final_number)
