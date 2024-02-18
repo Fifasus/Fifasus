@@ -1,2 +1,9 @@
 #test
-print("Hello, World!")
+#print("Hello, World!")
+# This is a Python program that greets the user
+
+# Ask the user for their name
+name = input("What's your name? ")
+
+# Greet the user
+print(f"Hello, {name}! Welcome to the world of Python.")
