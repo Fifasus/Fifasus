@@ -1,7 +1,7 @@
 # list of projects 
-01 Dice.
-02 Number Guesser.
-03 Quiz game.
+01 Dice.  
+02 Number Guesser.  
+03 Quiz game.  
 
 need to add :
 ### Project Title
