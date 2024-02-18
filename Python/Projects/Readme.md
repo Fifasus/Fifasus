@@ -1,9 +1,9 @@
-# list of projects 
+# LIST OF MY PROJECTS 
 01 Dice.  
 02 Number Guesser.  
 03 Quiz game.  
 
-need to add :
+need to add solve :) :
 ### Project Title
 This is a brief description of what this project is about and what it does.
 ### Getting Started
