@@ -1,0 +1,48 @@
+print()
+print("Welcome to my Quiz !!!")
+
+playing = input("Do you want to play? ").lower()
+
+if playing != "yes":
+    print("that is okay. We can play later")
+    quit()
+
+print("Okay! Let's play (:")
+score = 0
+
+
+def answer(question, right_answer):
+    print()
+    answer.answ = input(f"What does the {question} stand for? ").lower()
+    if answer.answ == right_answer:
+        return("Correct!!")
+    else:
+        return(f"""Incorrect!
+{question} stands for {right_answer}.""")
+
+
+question = "CPU"
+right_answer = "central processing unit"
+print(answer(question, right_answer))
+if answer.answ == right_answer:
+    score += 1
+
+
+question = "GPU"
+right_answer = "grafics processing unit"
+print(answer(question, right_answer))
+if answer.answ == right_answer:
+    score += 1
+
+
+question = "RAM"
+right_answer = "random access memory"
+print(answer(question, right_answer))
+if answer.answ == right_answer:
+    score += 1
+
+
+print()
+print(f"You got {score} questions correct!")
+score = score/3*100
+print(f"You got {score}%.")
